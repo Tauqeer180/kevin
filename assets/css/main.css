@@ -313,3 +313,37 @@ text-align: center;
     padding: 10px 20px;
     font-weight: 600;
 }
+
+
+
+
+
+/* Carousel Css Here */
+
+
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-card {
+    flex: 0 0 calc(86% / 3); /* Display three cards at once */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.carousel-container button {
+    margin-top: 10px;
+}
+
+
+/* Carousel Css END  */
