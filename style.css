@@ -1,0 +1,26 @@
+.flx-hero-text1 {
+    height: 260px;
+    display: flex;
+}
+
+.flx-hero-text1 h1 {
+    display: flex;
+    align-items: end;
+    color: white;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.py-20 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.flx-terms-style h5 {
+    margin: 20px 0px 0px 0px;
+}
+
+.flx-terms-style p {
+    margin: 0px;
+}
