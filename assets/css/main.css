@@ -230,11 +230,14 @@ font-size: 14px;
 .card{
 
 }
+.object-cover{
+    object-fit: cover;
+}
 .card-body{
     padding-top: 10px;
 }
 .card-img{
-    height: 115px;
+    max-height: 170px;
     object-fit: cover;
     object-position: top;
 }
@@ -631,4 +634,27 @@ a{
 }
 #footer .content p{
     color: #5C6E7C;
+}
+#privacy-content h5{
+    font-size: 15px;
+
+}
+#privacy-content p, li{
+    font-size: 15px;
+    line-height: 25px;
+    color: #142937;
+    opacity: 0.8;
+
+}
+
+#terms-content h5{
+    font-size: 15px;
+
+}
+#terms-content p, li{
+    font-size: 15px;
+    line-height: 25px;
+    color: #142937;
+    opacity: 0.8;
+
 }
