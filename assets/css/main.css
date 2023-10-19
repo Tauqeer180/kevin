@@ -20,6 +20,9 @@ body{
 .ps-5{
     padding-left: 30px;
 }
+.ps-10{
+    padding-left: 60px;
+}
 .ps-1{
     padding-left: 4px;
 }
@@ -282,4 +285,31 @@ text-align: center;
 }
 .w-375{
     width: 375px;
+}
+.flag-badge{
+    position: absolute;
+    bottom: 50px;
+    right: -60px;
+    border-radius: 5px;
+    
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 18px 24px;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 8px 7px 7px -2px rgba(0,0,0,0.30);
+-webkit-box-shadow: 8px 7px 7px -2px rgba(0,0,0,0.30);
+-moz-box-shadow: 8px 7px 7px -2px rgba(0,0,0,0.30);
+}
+.pt-2{
+    padding-top: 12px;
+}
+
+.get-started-btn{
+    background-color: #1f81e5;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
 }
