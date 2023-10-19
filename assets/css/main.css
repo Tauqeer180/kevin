@@ -23,6 +23,9 @@ body{
 .ps-10{
     padding-left: 60px;
 }
+.pe-10{
+    padding-right: 60px;
+}
 .ps-1{
     padding-left: 4px;
 }
@@ -76,6 +79,12 @@ body{
 .w-80{
     width: 80%;
 }
+.w-60{
+    max-width: 60%;
+}
+.w-40{
+    max-width: 40%;
+}
 .w-100{
     width: 100%;
 }
@@ -113,6 +122,9 @@ font-size: 60px;
 }
 .fs-14{
 font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
 }
 .fs-16{
     font-size: 16px;
@@ -401,10 +413,10 @@ right: -20px;
     height: 400px;
 }
 
-.flx-logo img {
+.flx-logo {
     /* padding-left: 162px; */
     padding-top: 50px;
-    width: 200px;
+   
 }
 
 .flx-txtstyle {
@@ -494,12 +506,15 @@ right: -20px;
 .flx-up-footer {
     display: flex;
     background-color: #1f81e5;
-    width: 60%;
+    /* width: 60%; */
     margin: auto;
-    padding: 100px 40px 72px 40px;
+    /* padding: 100px 40px 72px 40px; */
     border-radius: 20px;
     color: #D2E6F7;
     z-index: 10px;
+}
+.footer-card{
+    /* padding: 100px 40px 72px 70px; */
 }
 
 .flx-upfooter-btn button {
@@ -509,7 +524,8 @@ right: -20px;
 }
 
 .flx-up-footer1 {
-    max-width: 60%;
+    /* max-width: 60%; */
+    padding: 100px 80px;
 }
 
 .flx-up-footer2 {
@@ -526,15 +542,15 @@ right: -20px;
 #flx-footer {
     margin-top: -250px;
     background-color: #142E3F;
-    height: 850px;
+    /* height: 730px; */
 }
 
 .flx-footer-container {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    /* width: 65%; */
     margin: auto;
-    height: 42%;
+    height: 350px;
     align-items: end;
     color: white;
 }
@@ -563,8 +579,8 @@ right: -20px;
     margin: auto;
 }
 
-.f-container hr {
-    color: #5C6E7C;
+#footer hr {
+    border-color: #5C6E7C;
     margin: 40px 0px 40px 0px;
 }
 
@@ -594,5 +610,25 @@ a{
     color :#5C6E7C;
 }
 .f-links{
+    color: #5C6E7C;
+}
+.menu {
+    list-style-type: none; 
+}
+.menu li{
+    padding: 0 10px;
+}
+.menu li a{
+    color: white;
+}
+#invest_guide{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#our_reviews{
+    /* padding-top: 70px; */
+    padding-bottom: 70px;
+}
+#footer .content p{
     color: #5C6E7C;
 }
