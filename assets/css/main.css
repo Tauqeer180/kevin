@@ -1,0 +1,167 @@
+
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 80%;
+}
+
+.d-flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ps-5{
+    padding-left: 30px;
+}
+.ps-1{
+    padding-left: 4px;
+}
+.pe-1{
+    padding-right: 4px;
+}
+.px-1{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.px-4{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.mb-5{
+    margin-bottom: 30px;
+}
+.my-5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.w-50{
+    max-width: 50%;
+}
+
+.card{
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;
+}
+.card-body{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+.card-btn{
+    background-color: #1f81e5;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: 0px;
+    width: 100%;
+    padding: 15px;
+}
+
+/* Font Size */
+
+.fs-80{
+    font-size: 80px;
+}
+.fs-60{
+font-size: 60px;
+}
+.fs-14{
+font-size: 14px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fw-300{
+    font-weight: 300;
+}
+
+/* Font Size END */
+.lh-25{
+    line-height: 25px;
+}
+
+
+/* Colors */
+.text-white{
+    color: white;
+}
+
+.bg-primary{
+    background-color: #142937;
+}
+.text-primary{
+    color: #142937;
+}
+
+.text-yellow{
+    color: #ffdf00;
+}
+
+/* Colors END */
+
+
+.form-group{ 
+    position: relative;
+      margin: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      /* box-shadow: 1px 4px 8px 1px rgba(21,21,21,.2); */
+    border: 1px solid rgb(182, 182, 182);
+        border-radius: 8px;
+
+  }
+
+
+  .form-style {
+    /* padding: 13px 20px; */
+    /* padding-left: 55px; */
+    height: 40px;
+    width: 70%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #252525;
+     -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    border: none;
+     padding-right: 5px;
+
+  }
+
+
+
+  .form-style:focus,
+.form-style:active {
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);}
+.form-group input:focus::-webkit-input-placeholder  {
+  opacity: 0;
+  -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+} 
+.user-icon::before{
+    content: '\f2c0';
+    font-size: 16px;   /* Adjust size as needed */
+    margin-right: 5px; /* Space after the icon, if needed */
+}
+.content-between{
+    justify-content: space-between;
+}
