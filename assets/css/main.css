@@ -30,6 +30,19 @@ body{
     padding-left: 4px;
     padding-right: 4px;
 }
+.px-2{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.px-3{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.-px-3{
+    padding-left: -12px;
+    padding-right: -12px;
+}
+
 .px-4{
     padding-left: 24px;
     padding-right: 24px;
@@ -42,16 +55,31 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.my-1{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.my-0{
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+}
 .w-50{
     max-width: 50%;
 }
+.w-100{
+    width: 100%;
+}
+.md-w-33{
+    max-width: 33%;
+}
 
-.card{
+.header-card{
     background-color: white;
     border-radius: 25px;
     width: 400px;
 }
-.card-body{
+.header-card-body{
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 30px;
@@ -77,6 +105,9 @@ font-size: 60px;
 .fs-14{
 font-size: 14px;
 }
+.fs-13{
+    font-size: 13px;
+    }
 .fs-18{
     font-size: 18px;
 }
@@ -85,6 +116,9 @@ font-size: 14px;
 }
 .fw-bold{
     font-weight: bold;
+}
+.fw-500{
+    font-weight: 500;
 }
 .fw-300{
     font-weight: 300;
@@ -164,4 +198,23 @@ font-size: 14px;
 }
 .content-between{
     justify-content: space-between;
+}
+
+.card{
+
+}
+.card-body{
+    padding-top: 10px;
+}
+.card-img{
+    height: 115px;
+    object-fit: cover;
+    object-position: top;
+}
+.rounded-5{
+    border-radius: 5px;
+}
+
+.opacity-70{
+    opacity: 0.7;
 }
