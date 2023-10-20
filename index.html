@@ -12,7 +12,11 @@
     <div class="bg-primary">
       <div class="container d-flex mx-auto text-white items-center navbar">
         <div class="flx-logo d-flex content-between w-100">
-          <img src="./assets/images/Header-logo.png" alt="" />
+          <img
+            class="object-contain"
+            src="./assets/images/Header-logo.png"
+            alt=""
+          />
 
           <span>
             <ul class="d-flex menu fs-15">
@@ -60,7 +64,7 @@
             <div class="header-card-body">
               <div class="d-flex">
                 <div class="pe-1">
-                  <div class="form-group d-flex items-center">
+                  <div class="form-group my-0 d-flex items-center">
                     <span class="px-1">
                       <svg
                         width="20px"
@@ -89,7 +93,7 @@
                   </div>
                 </div>
                 <div class="ps-1">
-                  <div class="form-group d-flex items-center">
+                  <div class="form-group my-0 d-flex items-center">
                     <span class="px-1">
                       <svg
                         width="20px"
@@ -156,11 +160,36 @@
                 />
               </div>
               <div class="form-group d-flex items-center">
-                <span class="px-1">
+                <span class="ps-1">
+                  <img
+                    width="20"
+                    height="20"
+                    src="/assets/images/flag-icon.png"
+                  />
+                </span>
+                <select class="form-style bg-white px-1">
+                  <option value="" selected disabled>State / Territory</option>
+                  <option value="New South Wales">New South Wales</option>
+                  <option value="New South Wales">New South Wales</option>
+                  <option value="Victoria">Victoria</option>
+                  <option value="Queensland">Queensland</option>
+                  <option value="South Australia">South Australia</option>
+                  <option value="Western Australia">Western Australia</option>
+                  <option value="Tasmania">Tasmania</option>
+                  <option value="Australian Capital Territory">
+                    Australian Capital Territory
+                  </option>
+                  <option value="Northern Territory">Northern Territory</option>
+                </select>
+                <span class="select-icon"> v </span>
+              </div>
+
+              <div class="form-group d-flex items-center">
+                <span class="ps-1">
                   <img src="/assets/SVGs/coin-icon.svg" />
                 </span>
-                <select class="form-style bg-white">
-                  <option class="px-1" value="" selected disabled>
+                <select class="form-style bg-white px-1">
+                  <option value="" selected disabled>
                     Ideal Investment Amount
                   </option>
                   <option value="100">100</option>
@@ -170,17 +199,31 @@
               </div>
 
               <div class="form-group d-flex items-center">
-                <span class="px-1">
+                <span class="ps-1">
                   <img src="/assets/SVGs/calendar-icon.svg" />
                 </span>
-                <input
-                  type="number"
-                  name="investvent_timeframe"
-                  class="form-style"
-                  placeholder="Investment Timeframe"
-                  id="investvent_timeframe"
-                  autocomplete="off"
-                />
+                <select class="form-style bg-white px-1">
+                  <option value="" selected disabled>
+                    Investment Timeframe
+                  </option>
+                  <option value="100">100</option>
+                  <option value="200">200</option>
+                </select>
+                <span class="select-icon"> v </span>
+              </div>
+
+              <div class="form-group d-flex items-center">
+                <span class="ps-1">
+                  <img src="/assets/SVGs/goal-icon.svg" />
+                </span>
+                <select class="form-style bg-white px-1">
+                  <option value="" selected disabled>
+                    Expected Investment Return
+                  </option>
+                  <option value="100">100</option>
+                  <option value="200">200</option>
+                </select>
+                <span class="select-icon"> v </span>
               </div>
             </div>
 
