@@ -1,10 +1,65 @@
+@font-face {
+    font-family: "FamilijenGrote";
+    src: url("../fonts/FamiljenGrotesk-VariableFont_wght.ttf");
+    src:   url("../fonts/FamiljenGrotesk-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
+    /* unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A, U+30-39, U+0028, U+0029,U+0025; */
+  
+  }
+
+  @font-face {
+    font-family: "LatoRegular";
+    src: url("../fonts/Lato-Regular.ttf");
+    src:   url("../fonts/Lato-Regular.ttf") format("truetype");
+    /* font-weight: bold; */
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
+    /* unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A, U+30-39, U+0028, U+0029,U+0025; */
+  
+  }
+  @font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Light.ttf");
+    src:   url("../fonts/Lato-Light.ttf") format("truetype");
+    /* font-weight: bold; */
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
+    /* unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A, U+30-39, U+0028, U+0029,U+0025; */
+  
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Light.ttf");
+    src:   url("../fonts/Inter-Light.ttf") format("truetype");
+    /* font-weight: bold; */
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
+    /* unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A, U+30-39, U+0028, U+0029,U+0025; */
+  
+  }
+  
+
 html{
     scroll-behavior: smooth;
 }
 body{
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family: "Inter", sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "FamilijenGrote", sans-serif !important;
+}
+.header-card input , .header-card select {
+    font-family: "Lato", sans-serif !important;
+}
+.header-card button{
+    font-family: "LatoRegular", sans-serif !important;
 }
 .container{
     max-width: 1172px;
@@ -121,6 +176,7 @@ margin-bottom: 8px;
     background-color: white;
     border-radius: 25px;
     width: 400px;
+    
 }
 .header-card-body{
     padding: 40px 50px;
@@ -691,6 +747,8 @@ a{
 }
 .menu li a{
     color: white;
+    font-size: 16px;
+    font-weight: 300;
 }
 #invest_guide{
     padding-top: 70px;
