@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .header-card button{
     font-family: "LatoRegular", sans-serif !important;
+height: 80px;
 }
 .container{
     max-width: 1172px;
@@ -180,7 +181,7 @@ margin-bottom: 8px;
     
 }
 .header-card-body{
-    padding: 40px 50px;
+    padding: 55px 60px;
     /* padding-right: 30px;
     padding-left: 30px;
     padding-top: 30px; */
@@ -282,8 +283,8 @@ font-size: 14px;
       margin-top: 10px;
       margin-bottom: 10px;
       /* box-shadow: 1px 4px 8px 1px rgba(21,21,21,.2); */
-    border: 1px solid rgba(182, 182, 182,0.2);
-        border-radius: 8px;
+    border: 1px solid rgba(20,41,55,0.15);
+        border-radius: 7px;
 
   }
 
@@ -291,7 +292,7 @@ font-size: 14px;
   .form-style {
     /* padding: 13px 20px; */
     /* padding-left: 55px; */
-    height: 40px;
+    height: 42px;
     width: 90%;
     font-weight: 500;
     font-size: 14px;
