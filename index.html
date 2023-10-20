@@ -155,13 +155,30 @@
                   autocomplete="off"
                 />
               </div>
-              <div class="form-group mt-2">
+              <div class="form-group d-flex items-center">
+                <span class="px-1">
+                  <img src="/assets/SVGs/coin-icon.svg" />
+                </span>
+                <select class="form-style bg-white">
+                  <option class="px-1" value="" selected disabled>
+                    Ideal Investment Amount
+                  </option>
+                  <option value="100">100</option>
+                  <option value="200">200</option>
+                </select>
+                <span class="select-icon"> v </span>
+              </div>
+
+              <div class="form-group d-flex items-center">
+                <span class="px-1">
+                  <img src="/assets/SVGs/calendar-icon.svg" />
+                </span>
                 <input
-                  type="password"
-                  name="logpass"
+                  type="number"
+                  name="investvent_timeframe"
                   class="form-style"
-                  placeholder="Your Password"
-                  id="logpass"
+                  placeholder="Investment Timeframe"
+                  id="investvent_timeframe"
                   autocomplete="off"
                 />
               </div>

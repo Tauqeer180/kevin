@@ -161,7 +161,9 @@ font-size: 14px;
 .text-white{
     color: white;
 }
-
+.bg-white{
+    background-color: white;
+}
 .bg-primary{
     background-color: #142937;
 }
@@ -192,7 +194,7 @@ font-size: 14px;
     /* padding: 13px 20px; */
     /* padding-left: 55px; */
     height: 40px;
-    width: 70%;
+    width: 90%;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
@@ -203,6 +205,7 @@ font-size: 14px;
     transition: all 200ms linear;
     border: none;
      padding-right: 5px;
+     border-radius: 8px;
 
   }
 
@@ -212,7 +215,7 @@ font-size: 14px;
 .form-style:active {
   border: none;
   outline: none;
-  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);}
+  }
 .form-group input:focus::-webkit-input-placeholder  {
   opacity: 0;
   -webkit-transition: all 200ms linear;
@@ -658,3 +661,34 @@ a{
     opacity: 0.8;
 
 }
+
+/* Manipulate Dropdown Icon */
+
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;   
+    appearance: none;        
+    background-color: #fff;   /* Example background color */
+    padding-right: 25px;      /* Space for the new icon */
+    position: relative;
+  }
+
+  select {
+    /* ... (previous styles) ... */
+    /* color: red; */
+    position: relative;  /* Ensure the select box is relative */
+  }
+  
+
+  select + span.select-icon {
+    float: right;
+    margin-right: 5px;
+    pointer-events: none; 
+    background-color: #fff;
+    padding-right: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+  }
+  
+
+/* Manipulate Dropdown Icon End */
