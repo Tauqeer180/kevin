@@ -142,9 +142,15 @@ height: 80px;
 .mb-2{
 margin-bottom: 8px;
 }
+.mb-0{
+    margin-bottom: 0px;
+}
 .my-5{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.mt-5{
+    margin-top: 30px;
 }
 .my-1{
     margin-top: 4px;
@@ -494,14 +500,14 @@ text-align: center;
     color: #000;
     bottom: 70px; 
     border: 0;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 30px;
     font-size: 20px;
     background-color: white;
-    box-shadow: 8px 7px 7px -2px rgba(0,0,0,0.30);
--webkit-box-shadow: 8px 7px 7px -2px rgba(0,0,0,0.30);
--moz-box-shadow: 8px 7px 7px -2px rgba(0,0,0,0.30);
+    box-shadow: 9.811px 8.529px 3.5px rgba(0,0,0,0.1);
+-webkit-box-shadow: 9.811px 8.529px 3.5px rgba(0,0,0,0.1);
+-moz-box-shadow: 9.811px 8.529px 3.5px rgba(0,0,0,0.1);
 cursor: pointer;
 }
 
