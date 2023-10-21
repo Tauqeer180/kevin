@@ -961,6 +961,9 @@ select option {
 }
 }
 @media screen and (max-width: 768px) {
+    #why_invest h2{
+        margin-bottom: 0px;
+    }
     #nextBtn {
         right: -20px;
     }
