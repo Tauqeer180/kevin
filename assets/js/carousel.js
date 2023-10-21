@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Mobile breakpoint, can be adjusted as per your design
       return 1;
     } else {
-      return 3;
+      return 2;
     }
   }
   const cardWidth = carouselWrapper.clientWidth / numberofCards(); // Width of one card

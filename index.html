@@ -26,7 +26,7 @@
             <div class="p-3">
               <button class="hamburger-btn" id="menuToggle2">&times;</button>
             </div>
-            <ul class="d-flex menu fs-16">
+            <ul class="d-flex menu fs-16" id="menu">
               <li><a href="#why_invest">Why Invest In Bonds?</a></li>
               <li><a href="#invest_guide">Our Investment Guide</a></li>
               <li><a href="#our_reviews">Our Reviews</a></li>
@@ -40,7 +40,7 @@
         style="padding-bottom: 45px"
       >
         <div class="col-md-50 col-sm-100" style="margin-top: 90px">
-          <div class="px-4">
+          <div class="px-md-4">
             <h1 class="mb-5 my-0">TOP FIVE AUSTRALIAN BANK BONDS</h1>
 
             <p class="lh-25 opacity-80 fs-18">
@@ -134,7 +134,7 @@
               </div>
               <div class="form-group d-flex items-center">
                 <span class="px-1">
-                  <svg height="20px" width="20px" viewBox="0 0 512 512">
+                  <svg height="20px" width="20px" viewBox="0 0 530 530">
                     <style type="text/css">
                       .st0 {
                         fill: #b6b6b6;
@@ -170,10 +170,10 @@
                 />
               </div>
               <div class="form-group d-flex items-center">
-                <span class="ps-1">
+                <span class="px-1">
                   <img
-                    width="20"
-                    height="20"
+                    width="19"
+                    height="19"
                     src="/assets/images/flag-icon.png"
                   />
                 </span>
@@ -195,21 +195,21 @@
               </div>
 
               <div class="form-group d-flex items-center">
-                <span class="ps-1">
+                <span class="pe-1">
                   <img src="/assets/SVGs/coin-icon.svg" />
                 </span>
                 <input
-                  type="email"
-                  name="logemail"
+                  type="phone"
+                  name="logphone"
                   class="form-style"
-                  placeholder="Email Address"
-                  id="logemail"
+                  placeholder="Phone Number"
+                  id="logphone"
                   autocomplete="off"
                 />
               </div>
 
               <div class="form-group d-flex items-center">
-                <span class="ps-1">
+                <span class="pe-1">
                   <img src="/assets/SVGs/coin-icon.svg" />
                 </span>
                 <select class="form-style bg-white px-1">
@@ -223,7 +223,7 @@
               </div>
 
               <div class="form-group d-flex items-center">
-                <span class="ps-1">
+                <span class="px-1">
                   <img src="/assets/SVGs/calendar-icon.svg" />
                 </span>
                 <select class="form-style bg-white px-1">
@@ -237,7 +237,7 @@
               </div>
 
               <div class="form-group d-flex items-center">
-                <span class="ps-1">
+                <span class="px-1">
                   <img src="/assets/SVGs/goal-icon.svg" />
                 </span>
                 <select class="form-style bg-white px-1">
@@ -263,12 +263,14 @@
 
     <!-- Copanpany Logos Start Here -->
 
-    <div class="container py-5 my-5 row mx-auto items-center content-between">
+    <div
+      class="container py-5 my-5 row flex-wrap mx-auto items-center content-between logo-list"
+    >
       <div>
         <img src="./assets/SVGs/logo-01.svg" />
       </div>
-      <div class="px-4">
-        <img src="./assets/SVGs/logo-02.svg" />
+      <div class="">
+        <img class="w-100" src="./assets/SVGs/logo-02.svg" />
       </div>
       <div>
         <img src="./assets/SVGs/logo-03.svg" />
@@ -365,8 +367,9 @@
 
     <!-- Investment Guid Start -->
     <div id="invest_guide" class="container my-5 row mx-auto content-between">
-      <div class="col-md-50 col-sm-100 mx-auto">
-        <div class="position-relative mx-auto">
+      <div class="col-md-50 col-sm-100 mx-auto guide_img">
+        <img class="w-100" src="./assets/images/guide_img.png" alt="" />
+        <!-- <div class="position-relative mx-auto">
           <span class="authorise-badge">
             <span class="h-35">
               <img src="./assets/SVGs/check-icon-2.svg" alt="ASIS Authorised" />
@@ -391,7 +394,7 @@
               <div class="fs-16 fw-bold">Australian</div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="col-md-50 col-sm-100">
@@ -420,109 +423,121 @@
     <!-- Investment Guid End -->
 
     <!-- Carousel Start Here -->
-    <div id="our_reviews" class="mx-auto content-between">
-      <div class="carousel-container">
-        <div class="carousel-wrapper">
-          <div class="carousel-card">
-            <h2 class="text-primary my-1">Hear From Our Satisfied Readers</h2>
-          </div>
-          <div class="carousel-card">
-            <img src="./assets//SVGs/quote-icon.svg" alt="" />
-            <p class="lh-25 text-primary fs-16 my-1">
-              This guide provided clarity in the mist of overwhelming financial
-              data. I now feel confident in my investment choices.
-            </p>
-
-            <div class="d-flex items-center pt-2">
-              <img width="50px" src="./assets/images/profile-01.png" alt="" />
-              <div class="px-3">
-                <p class="fw-bold text-primary fs-16 my-1">Johnathan Wright</p>
-                <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-card">
-            <img src="./assets//SVGs/quote-icon.svg" alt="" />
-            <p class="lh-25 text-primary fs-16 my-1">
-              A game-changer for my portfolio. The expert analysis and clear
-              breakdown made decision-making a breeze.
-            </p>
-
-            <div class="d-flex items-center pt-2">
-              <img width="50px" src="./assets/images/profile-02.png" alt="" />
-              <div class="px-3">
-                <p class="fw-bold text-primary fs-16 my-1">Amy Emerson</p>
-                <p class="text-primary my-1 opacity-70 fs-16">Sydney</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-card">
-            <img src="./assets//SVGs/quote-icon.svg" alt="" />
-            <p class="lh-25 text-primary fs-16 my-1">
-              This guide provided clarity in the mist of overwhelming financial
-              data. I now feel confident in my investment choices.
-            </p>
-
-            <div class="d-flex items-center pt-2">
-              <img width="50px" src="./assets/images/profile-03.png" alt="" />
-              <div class="px-3">
-                <p class="fw-bold text-primary fs-16 my-1">Johnathan Wright</p>
-                <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-card">
-            <img src="./assets//SVGs/quote-icon.svg" alt="" />
-            <p class="lh-25 text-primary fs-16 my-1">
-              This guide provided clarity in the mist of overwhelming financial
-              data. I now feel confident in my investment choices.
-            </p>
-
-            <div class="d-flex items-center pt-2">
-              <img width="50px" src="./assets/images/profile-04.png" alt="" />
-              <div class="px-3">
-                <p class="fw-bold text-primary fs-16 my-1">Johnathan Wright</p>
-                <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-card">
-            <img src="./assets//SVGs/quote-icon.svg" alt="" />
-            <p class="lh-25 text-primary fs-16 my-1">
-              This guide provided clarity in the mist of overwhelming financial
-              data. I now feel confident in my investment choices.
-            </p>
-
-            <div class="d-flex items-center pt-2">
-              <img width="50px" src="./assets/images/profile-05.png" alt="" />
-              <div class="px-3">
-                <p class="fw-bold text-primary fs-16 my-1">Johnathan Wright</p>
-                <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-card">
-            <img src="./assets//SVGs/quote-icon.svg" alt="" />
-            <p class="lh-25 text-primary fs-16 my-1">
-              This guide provided clarity in the mist of overwhelming financial
-              data. I now feel confident in my investment choices.
-            </p>
-
-            <div class="d-flex items-center pt-2">
-              <img width="50px" src="./assets/images/profile-06.png" alt="" />
-              <div class="px-3">
-                <p class="fw-bold text-primary fs-16 my-1">Johnathan Wright</p>
-                <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Add more cards as needed -->
-        </div>
+    <div id="our_reviews" class="mx-auto content-between row container">
+      <div class="md-w-33">
+        <h2 class="text-primary my-1">Hear From Our Satisfied Readers</h2>
       </div>
-      <div class="container position-relative mx-auto">
-        <button id="prevBtn">&#10094;</button>
-        <button id="nextBtn">&#10095;</button>
+      <div class="carousel mx-auto">
+        <div class="carousel-container">
+          <div class="carousel-wrapper">
+            <div class="carousel-card">
+              <img src="./assets//SVGs/quote-icon.svg" alt="" />
+              <p class="lh-25 text-primary fs-16 my-1">
+                This guide provided clarity in the mist of overwhelming
+                financial data. I now feel confident in my investment choices.
+              </p>
+
+              <div class="d-flex items-center pt-2">
+                <img width="50px" src="./assets/images/profile-01.png" alt="" />
+                <div class="px-3">
+                  <p class="fw-bold text-primary fs-16 my-1">
+                    Johnathan Wright
+                  </p>
+                  <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-card">
+              <img src="./assets//SVGs/quote-icon.svg" alt="" />
+              <p class="lh-25 text-primary fs-16 my-1">
+                A game-changer for my portfolio. The expert analysis and clear
+                breakdown made decision-making a breeze.
+              </p>
+
+              <div class="d-flex items-center pt-2">
+                <img width="50px" src="./assets/images/profile-02.png" alt="" />
+                <div class="px-3">
+                  <p class="fw-bold text-primary fs-16 my-1">Amy Emerson</p>
+                  <p class="text-primary my-1 opacity-70 fs-16">Sydney</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-card">
+              <img src="./assets//SVGs/quote-icon.svg" alt="" />
+              <p class="lh-25 text-primary fs-16 my-1">
+                This guide provided clarity in the mist of overwhelming
+                financial data. I now feel confident in my investment choices.
+              </p>
+
+              <div class="d-flex items-center pt-2">
+                <img width="50px" src="./assets/images/profile-03.png" alt="" />
+                <div class="px-3">
+                  <p class="fw-bold text-primary fs-16 my-1">
+                    Johnathan Wright
+                  </p>
+                  <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-card">
+              <img src="./assets//SVGs/quote-icon.svg" alt="" />
+              <p class="lh-25 text-primary fs-16 my-1">
+                This guide provided clarity in the mist of overwhelming
+                financial data. I now feel confident in my investment choices.
+              </p>
+
+              <div class="d-flex items-center pt-2">
+                <img width="50px" src="./assets/images/profile-04.png" alt="" />
+                <div class="px-3">
+                  <p class="fw-bold text-primary fs-16 my-1">
+                    Johnathan Wright
+                  </p>
+                  <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-card">
+              <img src="./assets//SVGs/quote-icon.svg" alt="" />
+              <p class="lh-25 text-primary fs-16 my-1">
+                This guide provided clarity in the mist of overwhelming
+                financial data. I now feel confident in my investment choices.
+              </p>
+
+              <div class="d-flex items-center pt-2">
+                <img width="50px" src="./assets/images/profile-05.png" alt="" />
+                <div class="px-3">
+                  <p class="fw-bold text-primary fs-16 my-1">
+                    Johnathan Wright
+                  </p>
+                  <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-card">
+              <img src="./assets//SVGs/quote-icon.svg" alt="" />
+              <p class="lh-25 text-primary fs-16 my-1">
+                This guide provided clarity in the mist of overwhelming
+                financial data. I now feel confident in my investment choices.
+              </p>
+
+              <div class="d-flex items-center pt-2">
+                <img width="50px" src="./assets/images/profile-06.png" alt="" />
+                <div class="px-3">
+                  <p class="fw-bold text-primary fs-16 my-1">
+                    Johnathan Wright
+                  </p>
+                  <p class="text-primary my-1 opacity-70 fs-16">Brisbane</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add more cards as needed -->
+          </div>
+        </div>
+        <div class="container position-relative mx-auto">
+          <button id="prevBtn">&#10094;</button>
+          <button id="nextBtn">&#10095;</button>
+        </div>
       </div>
     </div>
     <!-- Carousel End Here -->
@@ -562,20 +577,20 @@
           class="container flx-footer-container row content-between align-end"
         >
           <div class="flex-md-2 col-sm-100">
-            <div class="px-sm-5">
+            <div class="">
               <img src="./assets/images/Footer-Logo.png" alt="" />
             </div>
           </div>
           <div class="row">
-            <div class="px-5 col-xs-100 py-sm-2">
+            <div class="px-md-4 col-xs-100 py-sm-2">
               <p class="fs-18 my-1 fw-bold">Head Office</p>
               <p class="fs-16 my-1">High Street, VIC, Sydney</p>
             </div>
-            <div class="px-5 col-xs-100 py-sm-2">
+            <div class="px-md-4 col-xs-100 py-sm-2">
               <p class="fs-18 my-1 fw-bold">Switchboard</p>
               <p class="fs-16 my-1">02 8345 8340</p>
             </div>
-            <div class="px-5 col-xs-100 py-sm-2">
+            <div class="px-md-4 col-xs-100 py-sm-2">
               <p class="fs-18 my-1 fw-bold">Email Address</p>
               <p class="fs-16 my-1">support@bond-invstr.com</p>
             </div>

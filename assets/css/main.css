@@ -146,6 +146,10 @@ h2 {
   padding-left: 12px;
   padding-right: 12px;
 }
+.px-md-4 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 .p-3 {
   padding: 12px;
 }
@@ -487,21 +491,24 @@ h2 {
 }
 
 /* Carousel Css Here */
+.carousel{
+      width: 67%;
 
-.carousel-container {
-  width: 70%;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
 }
+.carousel-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;}
 
 .carousel-wrapper {
   display: flex;
   transition: transform 0.3s ease-in-out;
+
+
 }
 
 .carousel-card {
-  flex: 0 0 calc(78% / 3); /* Display three cards at once */
+  flex: 0 0 calc(82.3% / 2); /* Display three cards at once */
   /* background-color: #f0f0f0; */
   padding: 20px 30px;
   margin: 5px;
@@ -528,7 +535,7 @@ h2 {
 }
 
 #prevBtn {
-  left: -20px;
+  left: -50px;
 }
 #nextBtn {
   right: -20px;
@@ -895,7 +902,44 @@ select option {
 .hamburger-btn {
   display: none;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.guide_img{position: relative;}
+.guide_img img{
+    position: absolute;
+    left: -15px;
+}
+
+
+@media screen and (max-width: 1250px) {
+
+/* #prevBtn {
+    left: 0;
+  } */
+  #nextBtn {
+    right: 10px;
+  }
+  .container{
+    padding: 10px 20px;
+  }
+}
 @media screen and (max-width: 768px) {
+    .carousel {
+        width: 80%;
+    }
+    .guide_img img{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    #invest_guide {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #why_invest {
+        padding-bottom: 0px;
+    }
+
   .col-sm-100 {
     width: 100%;
     padding: 0;
@@ -905,7 +949,7 @@ select option {
     width: 100%;
   }
   .carousel-card {
-    flex: 0 0 calc(76%);
+    flex: 0 0 calc(86%);
     /* background-color: #f0f0f0; */
     padding: 20px 30px;
     margin: 5px;
@@ -932,7 +976,7 @@ select option {
     width: 50%;
   }
   .md-w-33 div {
-    padding: 10px;
+    padding: 10px 10px;
   }
   .gap-md-6 {
     gap: 0;
@@ -975,18 +1019,20 @@ select option {
     display: block;
   }
 
-  #prevBtn {
-    left: 0;
-  }
-  #nextBtn {
-    right: 10px;
-  }
+  
   .header-card {
     width: auto;
   }
   .row{
     flex-wrap: wrap;
 }
+.logo-list div{
+    width: 50%;
+}
+.px-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1012,5 +1058,14 @@ select option {
   }
   .row {
     flex-wrap: wrap;
+  }
+  .md-w-33 div {
+    padding: 15px 0;
+  }
+  .carousel-card {
+    flex: 0 0 calc(72%);
+    /* background-color: #f0f0f0; */
+    padding: 20px 30px;
+    margin: 5px;
   }
 }
