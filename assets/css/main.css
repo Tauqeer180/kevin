@@ -924,11 +924,14 @@ margin-right: auto;
 
 }
 
-
+.hamburger-btn{
+    display: none;
+}
 @media screen and (max-width: 768px) {
 
 .col-sm-100{
     width: 100%;
+    padding: 0;
 }
 .flex-md-2{
     flex: none;
@@ -961,7 +964,43 @@ margin-right: auto;
 .md-w-33{
     width: 50%;
 }
+.hamburger-btn{
+    display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#mobileMenu {
+    display: none;
+    width: 70%;
+    position: fixed;
+    background-color: #1f81e5;
+    border: none;
+    right: 0;
+    top: 0px;
+    height: 100%;
+    z-index: 10;
+}
 
+.menu {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.menu li {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.menu li a {
+    width: 100%;
+    padding: 0.5rem 0;
+    display: block;
+}
 
 }
 
@@ -984,6 +1023,9 @@ margin-right: auto;
         padding-left: 10px;
         padding-right: 10px;
     }
+    #mobileMenu {
+       
+        width: 90%;}
 }
 
 

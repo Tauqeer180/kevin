@@ -20,18 +20,19 @@
             src="./assets/images/Header-logo.png"
             alt=""
           />
-          <!-- <button class="hamburger-btn" id="menuToggle">
-            &#9776;
-          </button> -->
+          <button class="hamburger-btn" id="menuToggle">&#9776;</button>
 
-          <span>
+          <nav id="mobileMenu">
+            <div class="p-3">
+              <button class="hamburger-btn" id="menuToggle2">&times;</button>
+            </div>
             <ul class="d-flex menu fs-16">
               <li><a href="#why_invest">Why Invest In Bonds?</a></li>
               <li><a href="#invest_guide">Our Investment Guide</a></li>
               <li><a href="#our_reviews">Our Reviews</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
-          </span>
+          </nav>
         </div>
       </div>
       <div
@@ -560,8 +561,10 @@
         <div
           class="container flx-footer-container row content-between align-end"
         >
-          <div class="flex-md-2 col-sm-100 px-sm-5">
-            <img src="./assets/images/Footer-Logo.png" alt="" />
+          <div class="flex-md-2 col-sm-100">
+            <div class="px-sm-5">
+              <img src="./assets/images/Footer-Logo.png" alt="" />
+            </div>
           </div>
           <div class="row">
             <div class="px-5 col-xs-100 py-sm-2">
@@ -636,5 +639,7 @@
     </div>
 
     <script src="./assets/js/carousel.js"></script>
+
+    <script src="./assets/js/menu.js"></script>
   </body>
 </html>
