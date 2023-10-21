@@ -68,7 +68,11 @@
           </div>
         </div>
 
-        <div class="col-md-50 col-sm-100" style="margin-top: 80px">
+        <div
+          class="col-md-50 col-sm-100"
+          id="contact_us"
+          style="margin-top: 80px"
+        >
           <div class="header-card mx-auto">
             <div class="header-card-body">
               <div class="d-flex">
@@ -263,22 +267,24 @@
     <!-- Copanpany Logos Start Here -->
 
     <div
-      class="container py-5 my-5 row flex-wrap mx-auto items-center content-between logo-list"
+      class="container py-5 my-5 mx-auto items-center content-between logo_container"
     >
-      <div>
-        <img src="./assets/SVGs/logo-01.svg" />
-      </div>
-      <div class="">
-        <img class="w-100" src="./assets/SVGs/logo-02.svg" />
-      </div>
-      <div>
-        <img src="./assets/SVGs/logo-03.svg" />
-      </div>
-      <div>
-        <img src="./assets/SVGs/logo-04.svg" />
-      </div>
-      <div>
-        <img src="./assets/SVGs/logo-05.svg" />
+      <div class="logo-list row flex-wrap">
+        <div>
+          <img src="./assets/SVGs/logo-01.svg" />
+        </div>
+        <div class="">
+          <img class="w-100" src="./assets/SVGs/logo-02.svg" />
+        </div>
+        <div>
+          <img src="./assets/SVGs/logo-03.svg" />
+        </div>
+        <div>
+          <img src="./assets/SVGs/logo-04.svg" />
+        </div>
+        <div>
+          <img src="./assets/SVGs/logo-05.svg" />
+        </div>
       </div>
     </div>
 
@@ -414,7 +420,9 @@
             <li>Expert Commentary</li>
             <li>Investment Strategies</li>
           </ul>
-          <button class="get-started-btn">Get Started</button>
+          <div class="get-started-btn">
+            <a href="#contact_us" class="">Get Started</a>
+          </div>
         </div>
       </div>
     </div>
@@ -556,15 +564,17 @@
                   way.
                 </p>
                 <div class="flx-upfooter-btn fw-bold">
-                  <button class="text-blue fw-bold">Get Started</button>
+                  <a href="#contact_us" class="text-blue fw-bold"
+                    >Get Started</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="w-40 col-sm-100">
+            <div class="w-40 col-sm-100 more_guide">
               <img
                 src="./assets/images/Need-More-Guidance.png"
                 alt=""
-                width="350"
+                width="370"
               />
             </div>
           </div>
@@ -576,7 +586,7 @@
           class="container flx-footer-container row content-between align-end"
         >
           <div class="flex-md-2 col-sm-100">
-            <div class="">
+            <div class="footer_logo">
               <img src="./assets/images/Footer-Logo.png" alt="" />
             </div>
           </div>
