@@ -107,6 +107,10 @@ height: 80px;
 .pe-10{
     padding-right: 60px;
 }
+.px-md-10{
+    padding-left: 60px;
+    padding-right: 60px;
+}
 .ps-1{
     padding-left: 4px;
 }
@@ -205,7 +209,7 @@ margin-bottom: 8px;
     width: 100%;
 }
 .md-w-33{
-    max-width: 33%;
+    width: 33%;
 }
 
 .header-card{
@@ -954,6 +958,9 @@ margin-right: auto;
     padding-left: 30px;
     padding-right: 30px;
 }
+.md-w-33{
+    width: 50%;
+}
 
 
 }
@@ -969,6 +976,13 @@ margin-right: auto;
     }
     .col-xs-100{
         width: 100%;
+    }
+    .md-w-33{
+        width: 100%;
+    }
+    .px-md-10{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
