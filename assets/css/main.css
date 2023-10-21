@@ -169,7 +169,9 @@ h2 {
 .p-5 {
   padding: 30px;
 }
-
+.m2{
+    margin: 8px;
+}
 .mb-5 {
   margin-bottom: 30px;
 }
