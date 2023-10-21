@@ -1068,14 +1068,18 @@ select option {
     z-index: 10;
   }
 
+  #menuToggle2{
+    padding: 20px;
+  }
   .menu {
     flex-direction: column;
     gap: 0.5rem;
+    padding-left: 20px;
   }
 
   .menu li {
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 0px;
   }
 
@@ -1122,7 +1126,7 @@ select option {
     padding-right: 10px;
   }
   #mobileMenu {
-    width: 90%;
+    width: 60%;
   }
   .row {
     flex-wrap: wrap;
