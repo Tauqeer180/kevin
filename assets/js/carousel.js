@@ -2,7 +2,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const carouselWrapper = document.querySelector(".carousel-wrapper");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
-  const cardWidth = carouselWrapper.clientWidth / 3; // Width of one card
+  function numberofCards() {
+    const width = window.innerWidth;
+    if (width <= 768) {
+      // Mobile breakpoint, can be adjusted as per your design
+      return 1;
+    } else {
+      return 3;
+    }
+  }
+  const cardWidth = carouselWrapper.clientWidth / numberofCards(); // Width of one card
   let currentIndex = 0;
 
   function updateCarousel() {
@@ -11,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function showNextCard() {
-    if (currentIndex < carouselWrapper.children.length - 3) {
+    if (currentIndex < carouselWrapper.children.length - numberofCards()) {
       currentIndex++;
       updateCarousel();
     }
