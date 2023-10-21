@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
   const cardWidth = carouselWrapper.clientWidth / 3; // Width of one card
-  console.log("card Width", cardWidth);
   let currentIndex = 0;
 
   function updateCarousel() {
