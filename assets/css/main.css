@@ -961,6 +961,12 @@ select option {
 }
 }
 @media screen and (max-width: 768px) {
+    .copyright div{
+        width: 100%;
+    }
+    .f-links a{
+        padding-left: 0;
+    }
     #why_invest h2{
         margin-bottom: 0px;
     }
