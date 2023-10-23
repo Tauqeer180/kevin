@@ -203,10 +203,10 @@ h2 {
 .col-md-50 {
   width: 50%;
 }
-.col-md-60 {
+.col-lg-60 {
   width: 60%;
 }
-.col-md-15 {
+.col-lg-15 {
   width: 15%;
 }
 .w-80 {
@@ -943,8 +943,21 @@ select option {
     height: 30px;
    
 }
+.thanku_page .book_cover{
+  width: 200px;
+}
+.row-md {
+  display: flex;
+  flex-wrap: nowrap;
+}
 @media screen and (max-width: 1250px) {
-
+  .row-md {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-md-100{
+    width: 100%;
+  }
 /* #prevBtn {
     left: 0;
   } */
@@ -961,6 +974,12 @@ select option {
     width: 300px;
     position: absolute;
     bottom: -11px;
+}
+.thanku_page .book_cover{
+  width: 150px;
+}
+.pt-md-50{
+  padding-top: 50px;
 }
 }
 @media screen and (max-width: 768px) {
