@@ -75,6 +75,7 @@ h2 {
   max-width: 1172px;
   padding-left: 12px;
   padding-right: 12px;
+  position: relative;
 }
 
 .d-flex {
@@ -108,10 +109,11 @@ h2 {
 .pe-10 {
   padding-right: 60px;
 }
-.px-md-10 {
+.px-lg-10 {
   padding-left: 60px;
   padding-right: 60px;
 }
+
 .ps-1 {
   padding-left: 4px;
 }
@@ -200,11 +202,14 @@ h2 {
 
   margin-bottom: 0px !important;
 }
-.col-md-50 {
+.col-lg-50 {
   width: 50%;
 }
 .col-lg-60 {
   width: 60%;
+}
+.col-lg-63 {
+  width: 63%;
 }
 .col-lg-15 {
   width: 15%;
@@ -221,7 +226,7 @@ h2 {
 .w-100 {
   width: 100%;
 }
-.md-w-33 {
+.lg-w-33 {
   width: 33%;
 }
 
@@ -243,12 +248,13 @@ h2 {
   border: 0px;
   width: 100%;
   padding: 15px;
+  text-transform: uppercase;
 }
 #why_invest {
   padding-bottom: 50px;
 }
-.gap-md-6 {
-  gap: 36px;
+.gap-lg-6 {
+  gap: 42px;
 }
 /* Font Size */
 
@@ -384,6 +390,8 @@ h2 {
 }
 .card-body {
   padding-top: 15px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 .card-img {
   max-height: 170px;
@@ -534,7 +542,7 @@ h2 {
   position: absolute;
   z-index: 99;
   color: #000;
-  bottom: 70px;
+  bottom: 35%;
   border: 0;
   width: 60px;
   height: 60px;
@@ -549,6 +557,7 @@ h2 {
 
 #prevBtn {
   left: -50px;
+  display: none;
 }
 #nextBtn {
   right: -20px;
@@ -642,6 +651,10 @@ h2 {
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
+}
+
+#footer{
+  /* max-width: 1649px; */
 }
 
 /* up-footer */
@@ -795,7 +808,7 @@ a {
 }
 #our_reviews {
   padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 95px;
 }
 #footer .content p {
   color: #5e6c76;
@@ -944,13 +957,31 @@ select option {
    
 }
 .thanku_page .book_cover{
-  width: 200px;
+  width: 300px;
 }
 .row-md {
   display: flex;
   flex-wrap: nowrap;
 }
+
+@media screen and (min-width: 1250px) {
+.position-lg-absolute{
+  position: absolute;
+}
+.max-w-lg-520{
+  max-width: 520px;
+}
+.thanku_page .book_cont{
+left: -60px;}
+}
 @media screen and (max-width: 1250px) {
+  #our_reviews {
+    padding-bottom: 50px;
+  }
+  h1{
+    font-size: 70px;
+    line-height: 70px;
+  }
   .row-md {
     display: flex;
     flex-wrap: wrap;
@@ -981,6 +1012,11 @@ select option {
 .pt-md-50{
   padding-top: 50px;
 }
+}
+@media screen and (min-width: 769px) {
+  .ps-m-lg-4{
+    margin-left: -24px;
+  }
 }
 @media screen and (max-width: 768px) {
   .thanku_page .success {
@@ -1064,13 +1100,13 @@ select option {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .md-w-33 {
+  .lg-w-33 {
     width: 50%;
   }
-  .md-w-33 div {
+  .lg-w-33 div {
     padding: 10px 10px;
   }
-  .gap-md-6 {
+  .gap-lg-6 {
     gap: 0;
   }
   .hamburger-btn {
@@ -1165,10 +1201,10 @@ select option {
   .col-xs-100 {
     width: 100%;
   }
-  .md-w-33 {
+  .lg-w-33 {
     width: 100%;
   }
-  .px-md-10 {
+  .px-lg-10 {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1178,7 +1214,7 @@ select option {
   .row {
     flex-wrap: wrap;
   }
-  .md-w-33 div {
+  .lg-w-33 div {
     padding: 15px 0;
   }
   .carousel-card {

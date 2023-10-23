@@ -17,6 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateCarousel() {
     const translateX = -currentIndex * cardWidth;
     carouselWrapper.style.transform = `translateX(${translateX}px)`;
+    console.log("Carosel", carouselWrapper.clientWidth);
+
+    // Update button visibility
+    prevBtn.style.display = currentIndex === 0 ? "none" : "block";
+    nextBtn.style.display =
+      currentIndex >= carouselWrapper.children.length - numberofCards()
+        ? "none"
+        : "block";
   }
 
   function showNextCard() {
