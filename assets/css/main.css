@@ -203,6 +203,12 @@ h2 {
 .col-md-50 {
   width: 50%;
 }
+.col-md-60 {
+  width: 60%;
+}
+.col-md-15 {
+  width: 15%;
+}
 .w-80 {
   width: 80%;
 }
@@ -585,7 +591,6 @@ h2 {
   display: flex;
   align-items: end;
   color: white;
-  font-size: 65px;
   text-align: center;
 }
 
@@ -864,10 +869,8 @@ select option {
   margin-bottom: 130px;
 }
 .thanku_page h1 {
-  font-size: 80px;
   margin-bottom: 65px;
   margin-top: 240px;
-  line-height: 80px;
   /* padding-top: 50px; */
 }
 .thanku_page .success {
@@ -961,7 +964,11 @@ select option {
 }
 }
 @media screen and (max-width: 768px) {
-    .copyright div{
+  .thanku_page .success {
+    margin-bottom: 10px;
+    margin-top: 30px;
+} 
+  .copyright div{
         width: 100%;
     }
     .f-links a{
@@ -1105,6 +1112,27 @@ select option {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .pt-sm-50{
+    padding-top: 50px;
+  }
+  .thanku_page .popper_icon img {
+    width: 40px;
+    height: auto;
+}
+.thanku_page .book_icon img {
+  width: 40px;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.thanku_page .download_btn_cont {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+.thanku_page {
+  margin-bottom: 80px;
+}
 }
 
 @media screen and (max-width: 576px) {
