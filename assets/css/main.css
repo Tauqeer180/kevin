@@ -971,6 +971,10 @@ select option {
 .max-w-lg-520{
   max-width: 520px;
 }
+.px-lg-4{
+  padding-left: 24px;
+  padding-right: 24px;
+}
 .thanku_page .book_cont{
 left: -60px;}
 }
