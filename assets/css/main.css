@@ -691,6 +691,12 @@ h2 {
 .pointer {
   cursor: pointer;
 }
+.hover_scale{
+  transition: transform 0.3s ease;
+}
+.hover_scale:hover {
+  transform: scale(0.99);  /* 95% of the original size */
+}
 .flx-upfooter-btn {
       margin-top: 30px;
     }
