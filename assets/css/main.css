@@ -683,10 +683,13 @@ h2 {
   /* padding: 100px 40px 72px 40px; */
   border-radius: 20px;
   color: #d2e6f7;
-  z-index: 10px;
+  z-index: 10;
 }
 .footer-card {
   /* padding: 100px 40px 72px 70px; */
+}
+.pointer {
+  cursor: pointer;
 }
 .flx-upfooter-btn {
       margin-top: 30px;
